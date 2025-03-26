@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+issueTrackerURL="https://github.com/Mrbysco/Snod/issues"
+license="MIT"
+
+[[mods]]
+modId="snod"
+version="${file.jarVersion}"
+displayName="Snod"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/snod"
+authors="Mrbysco, ShyNieke"
+description='''
+Just a small mod that changes every item name to start with "sn" for fun.
+'''
+[[dependencies.snod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="BOTH"
+[[mixins]]
+config="snod.mixins.json"
