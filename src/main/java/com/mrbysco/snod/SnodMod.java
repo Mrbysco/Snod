@@ -3,9 +3,6 @@ package com.mrbysco.snod;
 import com.mojang.logging.LogUtils;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
 
@@ -16,7 +13,7 @@ public class SnodMod {
 	public static final String MOD_ID = "snod";
 	public static final Logger LOGGER = LogUtils.getLogger();
 
-	public SnodMod(IEventBus eventBus, Dist dist, ModContainer container) {
+	public SnodMod() {
 
 	}
 
