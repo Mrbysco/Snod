@@ -15,7 +15,7 @@ Just a small mod that changes every item name to start with "sn" for fun.
 [[dependencies.snod]]
 modId="minecraft"
 type="required"
-versionRange="[26.1.1,)"
+versionRange="[26.2,)"
 ordering="NONE"
 side="BOTH"
 [[mixins]]
